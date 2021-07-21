@@ -25,7 +25,8 @@ import sys
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nI am 24×7 Non Stop Radio/Music Player.\n\nHits /help for more details...</b>"
+HOME_TEXT = "<b>𝐇𝐚𝐲 𝐒𝐥𝐮𝐫𝐫𝐫, [{}](tg://user?id={})\n\nI 𝐬𝐚𝐲𝐚 𝐛𝐢𝐬𝐚 𝐦𝐞𝐦𝐮𝐭𝐚𝐫𝐤𝐚𝐧 𝐚𝐧𝐝𝐚 𝐥𝐚𝐠𝐨 𝐚𝐭𝐚𝐨 𝐫𝐚𝐝𝐢𝐨 𝐥𝐢𝐯𝐞 𝐧𝐨𝐧 𝐬𝐭𝐨𝐩!.\n\n𝐤𝐞𝐭𝐢𝐤 /𝐡𝐞𝐥𝐩 𝐣𝐢𝐤𝐚 𝐦𝐞𝐦𝐛𝐮𝐭𝐮𝐡𝐤𝐚𝐧 𝐛𝐚𝐧𝐭𝐮𝐚𝐧
+𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 ☕ 𝐛𝐲 @LordGanss10 𝐇𝐮𝐛𝐮𝐧𝐠𝐢 𝐎𝐰𝐧𝐞𝐫 𝐒𝐚𝐲𝐚 𝐉𝐢𝐤𝐚 𝐈𝐧𝐠𝐢𝐧 𝐚𝐝𝐚 𝐘𝐠 𝐃𝐢𝐭𝐚𝐧𝐲𝐚𝐤𝐚𝐧 𝐀𝐭𝐚𝐮 𝐂𝐚𝐫𝐚 𝐂𝐚𝐫𝐚 𝐌𝐞𝐦𝐛𝐮𝐚𝐭 𝐁𝐨𝐭 𝐌𝐮𝐬𝐢𝐜 𝐃𝐥𝐥</b>"
 HELP = """
 **User Commands:**
 ▷/play **[song name]/[yt link]**: Reply to an audio file.
@@ -57,14 +58,14 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton("🔥 𝐎𝐰𝐧𝐞𝐫 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('👥 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/bacotsi/5'),
+        InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢', url='https://t.me/anjay/6'),
     ],
     [
-        InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
+        InlineKeyboardButton('🆘 𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 🆘', callback_data='help'),
 
     ]
     ]
@@ -78,14 +79,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+            InlineKeyboardButton("🔥 𝐎𝐰𝐧𝐞𝐫 🔥", url='https://t.me/LordGanss10'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('👥 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/bacotsi/5'),
+            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢', url='https://t.me/anjay/6'),
         ],
         [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('𝐎𝐰𝐧𝐞𝐫', url='https://t.me/LordGanss10'),
         
         ]
     ]
